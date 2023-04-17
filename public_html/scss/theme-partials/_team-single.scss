@@ -1,0 +1,30 @@
+.team-single{
+    
+    padding: 50px 0;
+    
+    @media(min-width:992px){
+        .team-single{
+            padding: 100px 0 150px;
+        }
+    }
+
+    .team-member-position{
+        font-size: 1.8rem;
+        font-weight: $font-weight-medium;
+        line-height: 2.7rem;
+        color: $primary;
+        margin-bottom: 3.6rem;
+    }
+
+    .team-member-bio{
+        p{
+            font-size: 1.6rem;
+            font-weight: $font-weight-light;
+            line-height: 2.5rem;
+            margin-bottom: 4rem;
+        }
+    }
+    
+    
+    
+}

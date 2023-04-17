@@ -1,0 +1,62 @@
+
+
+.contact-lead-section{
+
+
+    h1{
+        font-size: 5rem;
+        font-weight: $font-weight-medium;
+        line-height: 6.4rem;
+    }
+    p, a{
+        color: $info-text;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        font-weight: $font-weight-normal;
+
+        span{
+            margin-right: 12px;
+            font-size: 2rem;
+        }
+    }
+}
+
+.contact-section{
+    padding: 64px 0;
+    h2{
+        line-height: 4.6rem !important;
+    }
+    .form-control{
+        background-color: rgba(#253D61, 0.02);
+        border: none;
+        height: 50px !important;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+
+    textarea.form-control{
+        height: 350px !important;
+        resize: none;
+    }
+
+    .error-msg *{
+        color: $danger;
+        font-size: 1.3rem;
+    }
+}
+
+@media(min-width:992px){
+    .contact-section{
+        padding: 64px 0 128px;
+    }
+}
+
+.contact-map{
+    .image-map{
+        iframe{
+            width: 100vw;
+            height: 100vh;
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+
+.lead-page-section{
+    padding: 140px 0;
+    background-position: right top;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+}
+
+.lead-section-content{
+    background: rgba($white, 0.7);
+
+    .lead-section-title{
+
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 64px;
+    }
+
+    .lead-section-description{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        margin-bottom: 2.7rem;
+    }
+}
+
+
+

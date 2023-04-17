@@ -1,0 +1,14 @@
+.about-content{
+    padding: 50px 0;
+    .about-text{
+        font-size: 1.6rem;
+        font-weight: $font-weight-light;
+        line-height: 2.5rem;
+    }
+}
+
+@media(min-width:992px){
+    .about-content{
+         padding-bottom: 104px;
+    }
+}
