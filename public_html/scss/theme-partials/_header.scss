@@ -20,12 +20,19 @@ header{
     //navbar-toggler end
     
     .navbar-nav{
-        a{
-            font-size: 1.4rem;
-            line-height: 1.7rem;
-            font-weight: $font-weight-medium;
-            padding: 10px 10px;
-            text-align: center;
+        li{
+            a{
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                font-weight: $font-weight-medium;
+                padding: 10px 10px;
+                text-align: center;
+                &:hover{
+                    border-bottom: 2px solid #D0B6B6;
+                    color: $nav-bar-toggler-bg;
+                }
+            }
+
         }
     }
 }
